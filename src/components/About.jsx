@@ -9,8 +9,10 @@ const About = () => {
   return (
     <section  className='lg:py-24 bg-[#fff]  px-3'>
       <Container>
-        <h2 className='font-sans font-extrabold lg:text-[110px] text-center text-[70px] opacity-15 '>RESUME</h2>
-        <h3 className='font-sans text-center font-extrabold lg:text-[57px] text-[45px] lg:mt-[-135px] mt-[-93px] text-[#343a40]'>About <span className='text-[#72b626]'>Me !</span></h3>
+       <div className="">
+       <h2 className='font-sans font-extrabold lg:text-[110px] text-center text-[70px] opacity-15 '>RESUME</h2>
+       <h3 className='font-sans text-center font-extrabold lg:text-[57px] text-[45px] lg:mt-[-135px] mt-[-93px] text-[#343a40]'>About <span className='text-[#72b626]'>Me !</span></h3>
+       </div>
         
         <Flex className='justify-around flex-wrap items-center'>
           <div className="lg:w-[45%] w-full lg:mt-[70px] mt-6 ">

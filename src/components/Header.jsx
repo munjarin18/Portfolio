@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   let [show, setShow]= useState(false)
   return (
-    <header className='px-3 bg-[#72b626] items-center '>
+    <header className='px-3 bg-[#72b626] items-center  '>
         <Container>
       <Flex className=" justify-center items-center">
         <div className="w-1/4">
