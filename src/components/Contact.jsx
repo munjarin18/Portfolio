@@ -8,7 +8,7 @@ import { BsFillSendFill } from "react-icons/bs";
 const Contact = () => {
   return (
     <>
-      <section className=" lg:py-20 py-10 px-3">
+      <section className=" lg:py-10 py-10 px-3 animate-slide-in ">
         <Container>
           <div className="">
             <h2 className="font-sans font-extrabold lg:text-[120px] text-center lg:pt-0 pt-[45px] text-[70px] opacity-15 ">

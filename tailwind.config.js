@@ -5,11 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-    fontFamily: {
-      'sans': ['Josefin Sans', 'sans-serif']
-
-    }
+    extend: {
+      keyframes: {
+        slideIn: {
+          '0%': { transform: 'translateY(-100%)', opacity: '0' },  // Start offscreen
+          '100%': { transform: 'translateY(0)', opacity: '1' },    // End at normal position
+        },
+      },
+      animation: {
+        'slide-in': 'slideIn 2s ease-out',
+      },
+    },
   },
   plugins: [],
 }

@@ -12,7 +12,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <section  className=' lg:py-[100px] py-[50px] bg-[#FFF9E3] animate-slideIn px-2' >
+    <section  className=' lg:py-[100px] py-[50px] bg-[#FFF9E3] animate-slide-in px-2' >
         <Container>
             <Flex className="justify-around flex-wrap">
                 <div className="lg:w-[45%]">

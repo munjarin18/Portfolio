@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 
 
 
+
 const Header = () => {
   let [show, setShow]= useState(false)
   return (
@@ -29,13 +30,14 @@ const Header = () => {
          text-[#262626]   hover:text-[orange]">
          <Link to='/'>Home</Link></li>
             <li className="font-sans font-bold lg:text-[18px] text-[16px]
-         text-[#262626]  hover:text-[orange]"><Link to='/'>About</Link> </li>
+         text-[#262626]  hover:text-[orange]">
+         <Link to='/About'>About </Link>  </li>
             <li className="font-sans font-bold lg:text-[18px] text-[16px]
-         text-[#262626] hover:text-[orange]"><Link to='/Home'> Portfolio</Link></li>
+         text-[#262626] hover:text-[orange]"><Link to='/Portfolio'> Portfolio</Link></li>
             <li className="font-sans font-bold lg:text-[18px] text-[16px]
-         text-[#262626]  hover:text-[orange]">Contacts</li>
+         text-[#262626]  hover:text-[orange]"><Link to='/Contact'>Contacts</Link></li>
             <li className="font-sans font-bold lg:text-[18px] text-[16px]
-         text-[#262626]  hover:text-[orange]">Blog</li>
+         text-[#262626]  hover:text-[orange]"><Link to="/Blog"> Blog</Link></li>
 
           </ul>
         </div>

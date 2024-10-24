@@ -7,7 +7,7 @@ import { FaDownload } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <section  className='lg:py-24 bg-[#fff]  px-3'>
+    <section  className='lg:py-24  bg-[#fff] animate-slide-in px-3'>
       <Container>
        <div className="">
        <h2 className='font-sans font-extrabold lg:text-[110px] text-center text-[70px] opacity-15 '>RESUME</h2>
@@ -89,7 +89,7 @@ const About = () => {
                 <h4 className='font-sans text-[#72b626] font-semibold text-[35px] '>+</h4>
               </div>
               <div className="relative before:absolute before:contents-[''] before:lg:top-[10px] before:top-[-3px] before:left-[-14px] before:w-[30px] before:h-[2px] before:bg-[#767676] ">
-              <h3 className='text-[16px]  font-sans w-[150px] text-[#767676] font-medium lg:px-8'>YEARS OF EXPERIENCE</h3>
+              <h3 className='text-[16px]  font-sans w-[150px] text-[#767676] font-medium px-8'>YEARS OF EXPERIENCE</h3>
               </div>
              
             </div>
@@ -104,7 +104,7 @@ const About = () => {
                 <h4 className='font-sans text-[#72b626] font-semibold text-[35px] '>+</h4>
               </div>
               <div className="relative before:absolute before:contents-[''] before:lg:top-[10px] before:top-[-3px] before:left-[-14px] before:w-[30px] before:h-[2px] before:bg-[#767676] ">
-              <h3 className='text-[16px]  font-sans w-[150px] text-[#767676] font-medium lg:px-8'>COMPLETED PROJECTS</h3>
+              <h3 className='text-[16px]  font-sans w-[150px] text-[#767676] font-medium px-8'>COMPLETED PROJECTS</h3>
               </div>
             </div>
            </div>
@@ -121,7 +121,7 @@ const About = () => {
                 <h4 className='font-sans text-[#72b626] font-semibold text-[35px] '>+</h4>
               </div>
               <div className="relative before:absolute before:contents-[''] before:lg:top-[10px] before:top-[-3px] before:left-[-14px] before:w-[30px] before:h-[2px] before:bg-[#767676] ">
-              <h3 className='text-[16px]  font-sans w-[150px] text-[#767676] font-medium lg:px-8'>HAPPY CUSTOMERS</h3>
+              <h3 className='text-[16px]  font-sans w-[150px] text-[#767676] font-medium px-8'>HAPPY CUSTOMER</h3>
               </div>
             </div>
            </div>
@@ -173,7 +173,7 @@ const About = () => {
               <h3 className='absoulate text-center py-[15px] text-[30px] text-[#767676]'>90%</h3>
             </div>
             </div>
-            <span className='absolute pl-5 pt-5 font-sans text-[18px] text-[#767676]'>JAVSSCRIPT</span>
+            <span className='absolute pl-5 pt-5   font-sans text-[18px] text-[#767676]'>JAVSSCRIPT</span>
            </div>
 
             </div>
@@ -235,10 +235,10 @@ const About = () => {
             
 
           </div>
-          <div className="lg:w-[45%] w-full mt-10 ">
+          <div className="lg:w-[45%] w-full mt-10  ">
           <div className="flex justify-between">
            
-           <div className="lg:w-[45%] mt-10">
+           <div className="lg:w-[45%] mt-10 ">
            <div className=" relative  p-[20px]  border-[10px]  hover:border-[#72b626] rounded-[50%] h-[130px] w-[130px] duration-300 ease-in-out">
             <div className="">
               <h3 className='absoulate text-center py-[15px] text-[30px] text-[#767676]'>20%</h3>
