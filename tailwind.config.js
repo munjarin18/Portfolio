@@ -16,6 +16,9 @@ export default {
         'slide-in': 'slideIn 2s ease-out',
       },
     },
+    fontFamily: {
+      'sans': ['Josefin Sans', 'sans-serif']
+    },
   },
   plugins: [],
 }
