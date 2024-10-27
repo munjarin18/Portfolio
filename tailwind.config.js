@@ -13,7 +13,7 @@ export default {
         },
       },
       animation: {
-        'slide-in': 'slideIn 2s ease-out',
+        'slide-in': 'slideIn 1s ease-out',
       },
     },
     fontFamily: {

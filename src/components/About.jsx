@@ -9,21 +9,21 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 
 
 const About = () => {
-  const [value,setValue]=useState(0)
+  // const [value,setValue]=useState(0)
 
-  let incerment=()=>{
-    if(value<=100){
-      let add=value+1
-    setValue(add)
+  // let incerment=()=>{
+  //   if(value<=100){
+  //     let add=value+1
+  //   setValue(add)
 
-    }
+  //   }
     
-  }
+  // }
   
-  setInterval(()=>{
-    incerment()
+  // setInterval(()=>{
+  //   incerment()
     
-  },100)
+  // },100)
   
   return (
  
@@ -85,7 +85,7 @@ const About = () => {
             </div>
 
             <div className="mt-12">
-              <a href='#'>
+              <a href='https://drive.google.com/file/d/1PXHGI4Us_225b430vm26Ny1m0z0tAyR0/view?usp=sharing'>
               <div className=" relative flex justify-between lg:w-[40%] w-[70%] h-12 items-center py-4  lg:px-4 px-2 border-2 border-[#72b626] rounded-full cursor-pointer duration-300 ease-in-out text-[#767676]  hover:text-white before:absolute before:content-[''] before:top-0 before:right-0 before:h-full before:w-[30%] before:rounded-full before:bg-[#72b626] before:duration-300 before:ease-in-out before:hover:w-full  ">
               
               <h2 className='font-sans font-semibold lg:text-[17px] text-[12px]  z-50 '>DOWNLOAD CV</h2>
@@ -180,7 +180,7 @@ const About = () => {
            <div className=" relative  p-[20px]  border-[10px]  hover:border-[#72b626] rounded-[50%] h-[130px] w-[130px] duration-300 ease-in-out  items-center justify-center align-middle bg-[3.6deg]">
    
             <div className="">
-              <h3 className='absoulate text-center py-[15px] text-[30px] text-[#767676]'>{value}</h3>
+              <h3 className='absoulate text-center py-[15px] text-[30px] text-[#767676]'>25%</h3>
             </div>
             </div>
             <span className=' absolute pl-10 pt-5   font-sans text-[18px] text-[#767676] '>HTML</span>
