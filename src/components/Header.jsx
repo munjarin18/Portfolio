@@ -24,7 +24,7 @@ const Header = () => {
           </div>
         </div>
         <div className="w-3/4">
-          <ul className={`lg:flex justify-center lg:space-x-5 lg:static text-center absolute duration-700 ease-in-out ${show == true ? 'bg-slate-300 lg:bg-transparent text-[#fff] items-center top-[60px] left-0 w-full ' : 'top-[100px] left-[-200px]'}`}>
+          <ul className={`lg:flex justify-center lg:space-x-5 lg:static text-center absolute duration-700 lg:duration-0 ease-in-out ${show == true ? 'bg-slate-300 lg:bg-transparent text-[#fff] items-center top-[60px] left-0 w-full ' : 'top-[100px] left-[-200px]'}`}>
           
             <li className="font-sans font-bold lg:text-[18px] text-[16px]
          text-[#262626]   hover:text-[orange]">
