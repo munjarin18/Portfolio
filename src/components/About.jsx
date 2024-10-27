@@ -1,12 +1,32 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Container from './Container'
 import Flex from './Flex'
 import { FaDownload } from "react-icons/fa6";
+import ProgressBar from 'react-bootstrap/ProgressBar';
+
+
 
 
 
 const About = () => {
+  const [value,setValue]=useState(0)
+
+  let incerment=()=>{
+    if(value<=100){
+      let add=value+1
+    setValue(add)
+
+    }
+    
+  }
+  
+  setInterval(()=>{
+    incerment()
+    
+  },100)
+  
   return (
+ 
     <section  className='lg:py-24  bg-[#fff] animate-slide-in px-3'>
       <Container>
        <div className="">
@@ -160,7 +180,7 @@ const About = () => {
            <div className=" relative  p-[20px]  border-[10px]  hover:border-[#72b626] rounded-[50%] h-[130px] w-[130px] duration-300 ease-in-out  items-center justify-center align-middle bg-[3.6deg]">
    
             <div className="">
-              <h3 className='absoulate text-center py-[15px] text-[30px] text-[#767676]'>25%</h3>
+              <h3 className='absoulate text-center py-[15px] text-[30px] text-[#767676]'>{value}</h3>
             </div>
             </div>
             <span className=' absolute pl-10 pt-5   font-sans text-[18px] text-[#767676] '>HTML</span>
@@ -260,6 +280,8 @@ const About = () => {
             </div>
           </div>
          </div>
+
+         
 
 
       </Container>
